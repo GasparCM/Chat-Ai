@@ -1,0 +1,37 @@
+[
+  {
+    "mensaje": "Todas las recompensas se distribuirán entre las 23:00 y las 00:00 (hora española) del 2 de octubre.\n\nLa cuarta señal de trading para nuevos miembros será válida del 3 de octubre al 1 de noviembre.\n\nCon las nuevas reglas, ya no recibirás la tercera señal temporal de cinco días. Esta tercera señal es permanente y se puede obtener invitando a un nuevo miembro a invertir al menos 2000 USDT.",
+    "respuesta": "Perfecto, lo tendré en cuenta",
+    "action": "RESPONDER"
+  },
+  {
+    "mensaje": "Todos los miembros del equipo de TSQ deben comprender el principio de beneficio mutuo y beneficio mutuo. Siempre que desarrolle un plan de cinco pasos y opere según las señales de trading del equipo de TSQ, este le garantizará al 100 % su rentabilidad. Para lograr la rentabilidad, le animamos a mantener los dos principios fundamentales del equipo de TSQ:\n1. Respetar a los demás: Responder con prontitud a los mensajes tras recibirlos; este es un respeto fundamental.\n\n2. Ser agradecido: Cuando usted y el equipo de TSQ obtengan beneficios juntos, agradezca los beneficios compartidos, comparta los proyectos de inversión del equipo con otros e invite a más personas a unirse al equipo para lograr un beneficio mutuo.",
+    "respuesta": "Entendido",
+    "action": "RESPONDER"
+  },
+  {
+    "mensaje": "Desde que te uniste hasta ahora, has trabajado duro en silencio, y también he visto tus esfuerzos. Actualmente estás en LV1, lo cual es solo el comienzo de tu riqueza. Cuando asciendas a LV2, tus ingresos mejorarán. Calcularé una ganancia de LV2 para ti.",
+    "respuesta": "El mensaje no está relacionado con TSQ",
+    "action": "NO_RESPONDER"
+  },
+  {
+    "mensaje": "En un mes, puedes ganar 7265 + 240 = 7505 USDT.\nDurante este proceso, si ayudas a los miembros del equipo a reclutar nuevos miembros, también puedes recibir recompensas por asistencia.",
+    "respuesta": "El mensaje no está relacionado con TSQ",
+    "action": "NO_RESPONDER"
+  },
+  {
+    "mensaje": "¿Está usted satisfecho con los ingresos de LV2?",
+    "respuesta": "El mensaje no está relacionado con TSQ",
+    "action": "NO_RESPONDER"
+  },
+  {
+    "mensaje": "Por ejemplo, si actualmente tienes 10 000 USDT y el margen de beneficio por transacción es del 60 %, puedes realizar cuatro transacciones al día después de alcanzar el Nivel 2. El beneficio diario es: 10 000*4*0,6 = 242,17 USDT. En un mes, puedes ganar 242,17*30 = 7265 USDT.",
+    "respuesta": "Entendido, gracias por la información sobre los cálculos de beneficios.",
+    "action": "RESPONDER"
+  },
+  {
+    "mensaje": "En segundo lugar, el dividendo mínimo garantizado para el volumen de operaciones LV2 es de 80 USDT por operación, tres veces al mes, lo que equivale a 240 USDT. (Este es el dividendo mínimo garantizado, y en realidad recibirás más).",
+    "respuesta": "Entendido, gracias por la información sobre los dividendos garantizados.",
+    "action": "RESPONDER"
+  }
+]
