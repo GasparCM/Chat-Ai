@@ -1,22 +1,17 @@
-version: '3.8'
-
 services:
   telegram-bot:
     build: .
     container_name: telegram-ai-bot
     restart: unless-stopped
+    env_file:
+      - .env
     environment:
-      - TELEGRAM_API_ID=${TELEGRAM_API_ID}
-      - TELEGRAM_API_HASH=${TELEGRAM_API_HASH}
-      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY}
-      - SUPABASE_URL=${SUPABASE_URL}
-      - SUPABASE_KEY=${SUPABASE_KEY}
-      - CHAT_ID=${CHAT_ID}
+      - SESSION_PATH=/app/sessions/mi_sesion
     volumes:
       # Volumen para mantener la sesión de Telegram activa
       - telegram_session:/app/sessions
-      # Volumen para historial si lo necesitas persistente
-      - ./historial.json:/app/historial.json:ro
+      # Volumen para historial (lectura/escritura)
+      - ./historial.json:/app/historial.json
     networks:
       - bot-network
 

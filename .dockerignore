@@ -10,7 +10,6 @@ env.bak/
 venv.bak/
 .git/
 .gitignore
-README.md
 .DS_Store
 .vscode/
 .idea/

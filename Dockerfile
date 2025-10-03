@@ -17,7 +17,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copiar código fuente y scripts
 COPY telegram_ai.py .
 COPY start.sh .
-COPY .env .
 COPY historial.json .
 
 # Crear directorio para sesiones de Telegram

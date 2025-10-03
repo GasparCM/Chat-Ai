@@ -53,7 +53,9 @@ Reglas:
 # -------------------
 # Inicializar cliente de Telegram
 # -------------------
-client = TelegramClient("mi_sesion", api_id, api_hash)
+# Usar ruta de sesión compatible con Docker
+session_path = os.getenv("SESSION_PATH", "mi_sesion")
+client = TelegramClient(session_path, api_id, api_hash)
 
 # -------------------
 # Funciones auxiliares
